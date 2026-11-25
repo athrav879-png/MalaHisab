@@ -1,0 +1,9 @@
+APK banane ke liye (GitHub par automatic build):
+1. GitHub.com par login karke New repository banayein.
+2. Is ZIP ko extract karein aur poora MalaHisabAndroid folder (andar ki files sahit) repository mein upload karein.
+3. Repository ke Actions tab mein 'Build Mala Hisab APK' workflow kholein.
+4. 'Run workflow' dabayein (ya main/master par push ke baad automatic build hoga).
+5. Build complete hone par run page ke Artifacts section se 'MalaHisab-debug-APK' download karein.
+6. ZIP extract karke app-debug.apk ko Android phone mein bhejein aur install karein. Unknown apps install permission maang sakta hai.
+
+Note: Yeh debug APK hai, Play Store release ke liye signed release build alag se banana hota hai.
